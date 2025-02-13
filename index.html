@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="intro" id="intro">
+            <h1>✨Hola Nadia✨</h1>
+            <p>Scroll down :)</p>
+        </div>
+        <div class="content" id="content">
+            <div class="envelope" id="envelope">
+                <img src="letter.png" alt="letter for you mi amor x">
+                <p>click on letter for super secret message</p>
+
+                <div class="letter" id="letter">
+                    <p>Nadia, will you be my valentine? ❤️</p>
+                    <a href="yes.html" class="button">yes!</a>
+                    <a href="" class="noButton">no:(</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById("envelope").addEventListener("click", function() {
+            document.getElementById("letter").style.display = "block";
+        });
+    
+    </script>
+</body>
+</html>
